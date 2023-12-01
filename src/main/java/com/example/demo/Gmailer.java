@@ -41,7 +41,7 @@ public class Gmailer {
                 .setApplicationName("test mailer")
                 .build();
     }
-    private static final String fromEmailAddress = "alialaaalsadadi2006@gmail.com";
+    private static final String fromEmailAddress = "example@gmail.com"; //if facing errors -> setup the gmail api first in google cloud console
     private static Credential getCredentials(final NetHttpTransport HTTP_TRANSPORT, GsonFactory jsonFactory)
             throws IOException {
         // Load client secrets.
